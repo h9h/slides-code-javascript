@@ -1,7 +1,14 @@
 title: "h9h-slides"
+description: "JavaScript - Code Samples"
+thumbnail: assets/img/logo.jpg
 footnote: "JavaScript - Code Samples - (c) Heinke 2018"
-theme-override : assets/css/PITCHME.css
-logo : assets/img/logo.jpg
+gatoken: UA-136559606-1
+
+# For Presentations, set to true:
+eager-loading : true
+
+# Status
+published : true
 
 # Code
 code-line-numbers: true
@@ -9,8 +16,12 @@ highlight: xcode
 
 # Behavior
 transition : none
-published : true
+print-fragments : true
 
 # Plugins
 charts : true
 mathjax : TeX-AMS_HTML-full
+
+# overrides
+logo : assets/img/logo.jpg
+theme-override : assets/css/PITCHME.css
