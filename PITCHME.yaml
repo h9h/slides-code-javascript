@@ -1,4 +1,13 @@
 theme-override : assets/css/PITCHME.css
 
+# Code
 code-line-numbers: true
+highlight: xcode
 
+# Behavior
+transition : none
+published : false
+
+# Plugins
+charts : true
+mathjax : TeX-AMS_HTML-full

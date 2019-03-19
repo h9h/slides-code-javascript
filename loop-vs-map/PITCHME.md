@@ -16,15 +16,11 @@ console.log(result)
 @[1-2](Setup)
 @[4,6](Loop)
 @[5](die einzige Zeile mit Fachlichkeit)
+@[1-6](wir sagen dem Computer, was er tun soll)
 
 
 ---
-# Deklarativ: Map
-
-@gist[js](h9h/f241902cbdd8c10473f493c38653e12c)
-
----
-# Noch deklarativer
+# @fa[code-branch](Deklarativ: Map)
 
 ```js
 const squared = n => n * n
@@ -33,4 +29,4 @@ const result = [1, 2, 3].map(squared)
 
 console.log(result)
 ``` 
-
+@[3](hier steht genau **beschrieben**, was wir wollen!)
