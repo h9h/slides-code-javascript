@@ -1,4 +1,7 @@
+title: "h9h-slides"
+footnote: "JavaScript - Code Samples - (c) Heinke 2018"
 theme-override : assets/css/PITCHME.css
+logo : assets/img/logo.jpg
 
 # Code
 code-line-numbers: true
@@ -6,7 +9,7 @@ highlight: xcode
 
 # Behavior
 transition : none
-published : false
+published : true
 
 # Plugins
 charts : true
